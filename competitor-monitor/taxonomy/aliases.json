@@ -1,0 +1,126 @@
+{
+  "_comment": "Used ONLY for candidate discovery. Never use alone to determine TOTAL/PARCIAL — context is mandatory.",
+  "EDR": [
+    "endpoint detection and response", "endpoint security", "xdr", "edr/xdr",
+    "extended detection and response", "epp", "endpoint protection platform"
+  ],
+  "SOC/MDR": [
+    "soc", "mdr", "managed detection and response", "managed soc",
+    "security operations center", "centro de operações de segurança",
+    "monitoramento de segurança", "detecção e resposta gerenciada"
+  ],
+  "MSS": [
+    "mss", "managed security services", "serviços gerenciados de segurança",
+    "managed security", "segurança gerenciada"
+  ],
+  "PAM": [
+    "pam", "privileged access management", "gestão de acesso privilegiado",
+    "privileged identity management", "pim", "senhas privilegiadas"
+  ],
+  "IAM": [
+    "iam", "identity and access management", "gestão de identidade e acesso",
+    "iga", "identity governance", "governança de identidade",
+    "gestão de acessos", "controle de acesso", "access control"
+  ],
+  "WAF": [
+    "waf", "web application firewall", "firewall de aplicação web",
+    "firewall de aplicações", "proteção de aplicações web"
+  ],
+  "SASE": [
+    "sase", "secure access service edge", "ztna", "zero trust network access",
+    "swg", "secure web gateway", "cloud security", "zero trust", "acesso seguro"
+  ],
+  "NGFW": [
+    "ngfw", "next generation firewall", "firewall de próxima geração",
+    "firewall", "utm", "next-gen firewall"
+  ],
+  "DLP": [
+    "dlp", "data loss prevention", "prevenção de perda de dados",
+    "data leakage prevention", "proteção de dados", "classificação de dados"
+  ],
+  "NAC": [
+    "nac", "network access control", "controle de acesso à rede",
+    "network admission control"
+  ],
+  "PENTEST": [
+    "pentest", "penetration test", "teste de penetração", "red team",
+    "ethical hacking", "teste de intrusão", "simulação de ataque", "attack simulation"
+  ],
+  "VULNERABILITY_MANAGEMENT": [
+    "gestão de vulnerabilidades", "vulnerability management", "vm",
+    "ctem", "continuous threat exposure management", "vulnerability assessment",
+    "avaliação de vulnerabilidades", "gerenciamento de vulnerabilidades"
+  ],
+  "CTI": [
+    "cti", "cyber threat intelligence", "threat intelligence",
+    "inteligência de ameaças", "threat hunting"
+  ],
+  "DRP": [
+    "drp", "disaster recovery", "recuperação de desastres",
+    "business continuity", "continuidade de negócios", "pcn",
+    "plano de continuidade", "backup e recuperação"
+  ],
+  "GRC": [
+    "grc", "governance risk compliance", "governança risco conformidade",
+    "compliance", "conformidade", "iso 27001", "lgpd", "privacidade",
+    "privacy", "dpo", "dpoas", "escritório de compliance", "escritório de privacidade",
+    "programa de compliance", "programa de privacidade"
+  ],
+  "ASSESSMENT": [
+    "assessment", "avaliação de maturidade", "cyber maturity",
+    "diagnóstico de segurança", "security assessment", "cma",
+    "plano diretor", "pdsi", "maturidade em segurança"
+  ],
+  "SOC_BUILD": [
+    "estruturação de soc", "implantação de soc", "soc advisory",
+    "soc consulting", "consultoria de soc"
+  ],
+  "CLOUD": [
+    "cloud", "nuvem", "iaas", "paas", "saas", "aws", "azure", "gcp",
+    "google cloud", "microsoft cloud", "cloud computing", "computação em nuvem"
+  ],
+  "MICROSEGMENTATION": [
+    "microssegmentação", "microsegmentation", "segmentação de rede",
+    "network segmentation", "zero trust network"
+  ],
+  "NOC": [
+    "noc", "network operations center", "monitoramento de rede",
+    "network monitoring", "centro de operações de rede"
+  ],
+  "OT_SECURITY": [
+    "ot", "ot security", "segurança ot", "industrial security",
+    "segurança industrial", "scada", "ics", "operational technology"
+  ],
+  "AWARENESS": [
+    "conscientização", "awareness", "security awareness", "treinamento de segurança",
+    "phishing simulation", "simulação de phishing", "cultura de segurança"
+  ],
+  "TPRM": [
+    "tprm", "third party risk", "risco de terceiros", "vendor risk",
+    "gestão de fornecedores", "supply chain risk"
+  ],
+  "CISO_AS_SERVICE": [
+    "ciso as a service", "ciso aaservice", "vciso", "virtual ciso",
+    "ciso terceirizado", "security leadership", "liderança de segurança"
+  ],
+  "DATA_CENTER": [
+    "data center", "datacenter", "colocation", "colo", "iaas", "hosting",
+    "hospedagem", "infraestrutura", "infrastructure"
+  ],
+  "STORAGE": [
+    "storage", "armazenamento", "san", "nas", "object storage",
+    "backup", "cohesity", "resiliência de dados"
+  ],
+  "HYPERCONVERGENCE": [
+    "hiperconvergência", "hyperconvergence", "hci",
+    "infraestrutura hiperconvergente"
+  ],
+  "VIRTUALIZATION": [
+    "virtualização", "virtualization", "vmware", "hyper-v",
+    "virtual machines", "máquinas virtuais"
+  ],
+  "FINOPS": [
+    "finops", "otimização de cloud", "cloud cost", "cloud spend",
+    "custo de nuvem", "cloud optimization"
+  ]
+}

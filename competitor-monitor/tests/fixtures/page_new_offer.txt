@@ -1,0 +1,6 @@
+Shield Security — Novo: DECEPTION Technology
+
+Lançamos nossa plataforma de Cyber Deception para detecção avançada de ameaças internas.
+Solução proprietária integrada ao nosso SOC/MDR.
+
+Também disponível: EDR com CrowdStrike Falcon para proteção de endpoints.
