@@ -1,0 +1,28 @@
+{
+  "competitor_id": "kpmg",
+  "competitor_name": "KPMG",
+  "baseline_status": "candidate",
+  "generated_at": "2026-08-10T14:13:37.057584+00:00",
+  "approved_at": null,
+  "clients": [],
+  "cases": [],
+  "offers": [],
+  "monitoring_urls": {
+    "CLIENTS_CASES": [],
+    "OFFERS": [],
+    "NEWS_LAUNCHES": []
+  },
+  "collection_errors": [
+    {
+      "url": "https://kpmg.com/br/pt/home.html",
+      "error": "HTTPSConnectionPool(host='api.firecrawl.dev', port=443): Max retries exceeded with url: /v2/scrape (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "stage": "map_fallback"
+    },
+    {
+      "url": "https://kpmg.com/br/pt/home.html",
+      "error": "No relevant pages discovered",
+      "stage": "discovery"
+    }
+  ],
+  "pages_analyzed": 0
+}

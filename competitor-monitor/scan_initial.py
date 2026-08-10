@@ -75,18 +75,24 @@ def discover_pages(competitor: dict) -> tuple[list, list]:
             errors.append({"url": base_url, "error": result.error, "stage": "map_fallback"})
             return [], errors
 
-    all_urls = [base_url] + mapped
-    all_urls = deduplicate_urls(all_urls)
+    # Always include homepage
+    all_urls = deduplicate_urls([base_url] + mapped)
 
     relevant = [u for u in all_urls
                 if is_homepage(u, base_url) or is_relevant_url(u, base_url)]
+
+    # If only homepage was found, still process it (content may have relevant info)
+    if not relevant:
+        logger.info(f"[{comp_id}] No relevant URLs by filter — using homepage only")
+        relevant = [base_url]
+
     relevant = relevant[:MAX_PAGES]
 
     logger.info(f"[{comp_id}] {len(relevant)} relevant URLs from {len(all_urls)} total")
     return relevant, errors
 
 
-def process_competitor(competitor: dict) -> dict:
+def process_competitor(competitor: dict, no_classify: bool = False) -> dict:
     comp_id = competitor["id"]
     comp_name = competitor["name"]
     comp_type = competitor.get("type", "")
@@ -165,8 +171,12 @@ def process_competitor(competitor: dict) -> dict:
 
         # Deterministic pre-filter: find candidate Tripla solutions
         candidates = find_candidate_solutions(normalized)
+
+        if no_classify:
+            logger.debug(f"[{comp_id}] --no-classify: skipping LLM for {url}")
+            continue
+
         if not candidates and page_type == "OFFERS":
-            # No keyword match — skip LLM for this page
             logger.debug(f"[{comp_id}] {url} — no keyword match, skipping LLM")
             continue
 
@@ -408,6 +418,8 @@ def print_summary(results: list):
 def main():
     parser = argparse.ArgumentParser(description="Varredura inicial de concorrentes")
     parser.add_argument("--competitor-id", help="Processar apenas este concorrente")
+    parser.add_argument("--no-classify", action="store_true",
+                        help="Pular classificação LLM (coleta e snapshots apenas)")
     args = parser.parse_args()
 
     competitors = load_competitors(args.competitor_id)
@@ -415,10 +427,13 @@ def main():
         logger.error("Nenhum concorrente encontrado com os critérios especificados")
         sys.exit(1)
 
+    if args.no_classify:
+        logger.info("Modo --no-classify ativo: coleta e snapshots apenas, sem chamadas LLM.")
+
     results = []
     for competitor in competitors:
         try:
-            result = process_competitor(competitor)
+            result = process_competitor(competitor, no_classify=args.no_classify)
             save_baseline_candidate(result)
             results.append(result)
         except Exception as e:

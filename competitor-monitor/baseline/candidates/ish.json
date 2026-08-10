@@ -1,0 +1,28 @@
+{
+  "competitor_id": "ish",
+  "competitor_name": "ISH",
+  "baseline_status": "candidate",
+  "generated_at": "2026-08-10T14:14:04.525654+00:00",
+  "approved_at": null,
+  "clients": [],
+  "cases": [],
+  "offers": [],
+  "monitoring_urls": {
+    "CLIENTS_CASES": [],
+    "OFFERS": [],
+    "NEWS_LAUNCHES": []
+  },
+  "collection_errors": [
+    {
+      "url": "https://ish.com.br",
+      "error": "HTTPSConnectionPool(host='api.firecrawl.dev', port=443): Max retries exceeded with url: /v2/scrape (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
+      "stage": "map_fallback"
+    },
+    {
+      "url": "https://ish.com.br",
+      "error": "No relevant pages discovered",
+      "stage": "discovery"
+    }
+  ],
+  "pages_analyzed": 0
+}
