@@ -17,6 +17,8 @@
     {"name": "Correios", "source_url": "https://www.3corp.com.br/cases/", "confidence": 0.80},
     {"name": "Via Varejo", "source_url": "https://www.3corp.com.br/cases/", "confidence": 0.80},
     {"name": "CCR Via Sul", "source_url": "https://www.3corp.com.br/cases/", "confidence": 0.80},
+    {"name": "Entrevias", "source_url": "https://www.3corp.com.br/cases/", "confidence": 0.80},
+    {"name": "Rodovia Tamoios", "source_url": "https://www.3corp.com.br/cases/", "confidence": 0.80},
     {"name": "NWI Telecom", "source_url": "https://www.3corp.com.br/cases/", "confidence": 0.80},
     {"name": "Ministério Público RJ", "source_url": "https://www.3corp.com.br/cases/", "confidence": 0.80},
     {"name": "PMDF", "source_url": "https://www.3corp.com.br/cases/", "confidence": 0.80},
@@ -29,17 +31,111 @@
     {"client": "DETRAN-SP", "description": "Case publicado no site", "source_url": "https://www.3corp.com.br/case/detran-ndash-sp/7", "confidence": 0.95}
   ],
   "offers": [
-    {"name": "Segurança de Rede - Firewall (Huawei)", "tripla_overlap": "PARCIAL", "tripla_solution": "NGFW", "confidence": 0.85, "evidence": "Página dedicada /solucoes/Seguranca-de-Rede-Firewall"},
-    {"name": "Infraestrutura de TI / Servidores e Storage", "tripla_overlap": "FORA_DE_PORTFOLIO", "tripla_solution": null, "confidence": 0.90, "evidence": "Foco principal em infraestrutura, não cibersegurança"},
-    {"name": "WLAN / Redes LAN / Fibra Óptica", "tripla_overlap": "FORA_DE_PORTFOLIO", "tripla_solution": null, "confidence": 0.90, "evidence": "Networking/telecom — fora do escopo Tripla"},
-    {"name": "SMART CITIES", "tripla_overlap": "FORA_DE_PORTFOLIO", "tripla_solution": null, "confidence": 0.85, "evidence": "Produto de smart city, não cibersegurança"}
+    {
+      "name": "WLAN / Redes Sem Fio (Huawei) — Wi-fi corporativo e para rodovias/aeroportos",
+      "tripla_overlap": "TOTAL",
+      "tripla_solution": "Redes Sem Fio (Huawei)",
+      "confidence": 0.95,
+      "evidence": "URLs /solucoes/WLAN-conectividade-sem-fio e /solucoes/Wi-fi-para-rodovias-ferrovias-portos-e-aeroportos — mesmo fabricante Huawei que a Tripla"
+    },
+    {
+      "name": "Redes LAN / Switches / Roteadores corporativos (Huawei)",
+      "tripla_overlap": "TOTAL",
+      "tripla_solution": "Redes Cabeadas (Huawei)",
+      "confidence": 0.95,
+      "evidence": "URLs /solucoes/Redes-LAN-Switches e /solucoes/roteadores-corporativos-huawei — mesmo fabricante Huawei que a Tripla"
+    },
+    {
+      "name": "Redes de Fibra Óptica (Huawei) — aeroportos, portos, ferrovias, rodovias",
+      "tripla_overlap": "TOTAL",
+      "tripla_solution": "Redes de Transmissão Ótica DWDM/SDH/GPON (Huawei)",
+      "confidence": 0.90,
+      "evidence": "URL /solucoes/redes-de-fibra-optica-aeroportos-portos-ferrovias-rodovias — Huawei, mesma linha Tripla"
+    },
+    {
+      "name": "Câmeras IP / CFTV (Huawei Smart Cities)",
+      "tripla_overlap": "TOTAL",
+      "tripla_solution": "Segurança Eletrônica (Dahua)",
+      "confidence": 0.80,
+      "evidence": "URL /solucoes/Cameras-IP-CFTV — Tripla vende Segurança Eletrônica Dahua; 3CORP usa Huawei para CCTV em smart cities. Mesma categoria, fabricante diferente — TOTAL por categoria."
+    },
+    {
+      "name": "IdeaHub Huawei (videoconferência, projetor, lousa interativa)",
+      "tripla_overlap": "TOTAL",
+      "tripla_solution": "Tela Interativa (Huawei)",
+      "confidence": 0.90,
+      "evidence": "URL /solucoes/ideahub_huawei_videoconferencia_projetor_lousa_magica — mesmo produto Huawei IdeaHub que a Tripla comercializa"
+    },
+    {
+      "name": "Servidores e Storage (Huawei)",
+      "tripla_overlap": "PARCIAL",
+      "tripla_solution": "Soluções de Armazenamento (Huawei)",
+      "confidence": 0.85,
+      "evidence": "URL /solucoes/servidores-storage-para-empresas — Tripla vende Soluções de Armazenamento Huawei; 3CORP inclui servidores além de storage"
+    },
+    {
+      "name": "Segurança de Rede - Firewall (Huawei)",
+      "tripla_overlap": "PARCIAL",
+      "tripla_solution": "NGFW (Sophos)",
+      "confidence": 0.85,
+      "evidence": "URL /solucoes/Seguranca-de-Rede-Firewall — Tripla usa Sophos para NGFW; 3CORP usa Huawei. Mesma categoria, fabricante diferente."
+    },
+    {
+      "name": "Huawei Cloud (IaaS)",
+      "tripla_overlap": "PARCIAL",
+      "tripla_solution": "Data Center (IaaS)",
+      "confidence": 0.75,
+      "evidence": "URL /solucoes/huawei_cloud — Tripla tem Data Center/IaaS, mas foca Microsoft/Google Cloud. Huawei Cloud é nicho diferente."
+    },
+    {
+      "name": "SMART CITIES (integração de soluções municipais)",
+      "tripla_overlap": "PARCIAL",
+      "tripla_solution": "Segurança Eletrônica (Dahua) + Redes Sem Fio (Huawei)",
+      "confidence": 0.75,
+      "evidence": "URL /solucoes/smart_cities — inclui CFTV, redes, monitoramento urbano. Tripla tem componentes individuais (câmeras Dahua, redes Huawei)"
+    },
+    {
+      "name": "Comunicação Unificada (UC) / PABX em Nuvem / Rainbow Alcatel-Lucent",
+      "tripla_overlap": "FORA_DE_PORTFOLIO",
+      "tripla_solution": null,
+      "confidence": 0.90,
+      "evidence": "UC, PABX, OmniChannel — não estão no portfólio Tripla"
+    },
+    {
+      "name": "Rede própria de Telecomunicações (operadora)",
+      "tripla_overlap": "FORA_DE_PORTFOLIO",
+      "tripla_solution": null,
+      "confidence": 0.90,
+      "evidence": "Operadora de telecom — fora do portfólio Tripla"
+    },
+    {
+      "name": "OmniChannel / Call Center (Huawei AICC)",
+      "tripla_overlap": "FORA_DE_PORTFOLIO",
+      "tripla_solution": null,
+      "confidence": 0.90,
+      "evidence": "Call center / omnichannel — fora do portfólio Tripla"
+    },
+    {
+      "name": "3CORP Cloud (cloud própria)",
+      "tripla_overlap": "FORA_DE_PORTFOLIO",
+      "tripla_solution": null,
+      "confidence": 0.85,
+      "evidence": "Cloud própria da 3CORP — diferente das soluções de cloud que a Tripla revende"
+    }
   ],
   "monitoring_urls": {
     "CLIENTS_CASES": ["https://www.3corp.com.br/cases/", "https://www.3corp.com.br/clientes"],
-    "OFFERS": ["https://www.3corp.com.br/solucoes/Seguranca-de-Rede-Firewall"],
+    "OFFERS": [
+      "https://www.3corp.com.br/solucoes/WLAN-conectividade-sem-fio",
+      "https://www.3corp.com.br/solucoes/Redes-LAN-Switches",
+      "https://www.3corp.com.br/solucoes/redes-de-fibra-optica-aeroportos-portos-ferrovias-rodovias",
+      "https://www.3corp.com.br/solucoes/Cameras-IP-CFTV",
+      "https://www.3corp.com.br/solucoes/ideahub_huawei_videoconferencia_projetor_lousa_magica",
+      "https://www.3corp.com.br/solucoes/Seguranca-de-Rede-Firewall"
+    ],
     "NEWS_LAUNCHES": ["https://www.3corp.com.br/blog", "https://www.3corp.com.br/imprensa"]
   },
   "collection_errors": [],
   "pages_analyzed": 1,
-  "notes": "3CORP é principalmente integradora de infraestrutura e telecom (Huawei). Sobreposição com Tripla limitada a Firewall. Muitos clientes governo/público."
+  "notes": "REVISÃO: análise inicial subestimou a sobreposição. A 3CORP compete diretamente com a Tripla em Redes Huawei (WLAN, LAN/switches, fibra ótica), Tela Interativa Huawei (IdeaHub), e CFTV. Muitos clientes público/governo e infraestrutura crítica (concessionárias de rodovias, portos, aeroportos). Prioridade de monitoramento deve ser reclassificada para MÉDIA-ALTA em redes Huawei."
 }
