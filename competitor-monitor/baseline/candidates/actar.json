@@ -57,5 +57,5 @@
     }
   ],
   "pages_analyzed": 1,
-  "notes": "Conteúdo da Actar não carregou corretamente (possivelmente renderização JS). Dados baseados apenas em URLs. Confidence baixa — requer revisita ou visita manual."
+  "notes": "Página bloqueada para scraping automatizado (Elementor 4 + WP Rocket — JS não renderiza via Firecrawl mesmo com waitFor 5s e proxy stealth). Dados baseados apenas em URLs do mapa. REQUER VISITA MANUAL para classificação correta. Soluções inferidas por URL: /cyber-security, /zero-trust, /privacidade-e-protecao-de-dados."
 }

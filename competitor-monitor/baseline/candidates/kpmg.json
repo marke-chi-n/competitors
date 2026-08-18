@@ -8,40 +8,43 @@
   "cases": [],
   "offers": [
     {
+      "name": "Cyber Managed Services",
+      "tripla_overlap": "PARCIAL",
+      "tripla_solution": "SOC/MDR CyberWatch / MSS CyberWatch",
+      "confidence": 0.75,
+      "evidence": "Confirmado na página /cyber-security/cyber-managed-services.html — 'Antecipe-se proativamente aos problemas de cibersegurança'. KPMG é BIG4 advisory; serviço provavelmente combina consultoria + tecnologia parceira, não SOC operacional próprio como a Tripla."
+    },
+    {
       "name": "Defesa Cibernética (Cyber Defense)",
-      "tripla_overlap": "INDETERMINADO",
+      "tripla_overlap": "PARCIAL",
       "tripla_solution": "SOC/MDR CyberWatch",
-      "confidence": 0.6,
-      "evidence": "Nome sugere sobreposição, mas KPMG é consultoria advisory — sem evidência de managed SOC/MDR operacional"
+      "confidence": 0.70,
+      "evidence": "Página /cyber-defense/ — 'Aproveite as oportunidades com mais confiança'. Pode incluir monitoramento operacional mas contexto é advisory. IDC e Forrester reconhecem KPMG como líder global em cyber risk."
     },
     {
       "name": "Resposta Cibernética (Incident Response)",
       "tripla_overlap": "PARCIAL",
-      "tripla_solution": "Incident Response",
-      "confidence": 0.65,
-      "evidence": "IDC destaca KPMG como líder em Incident Response global — serviço de consultoria, não produto"
-    },
-    {
-      "name": "Cyber Managed Services",
-      "tripla_overlap": "PARCIAL",
-      "tripla_solution": "SOC/MDR CyberWatch",
-      "confidence": 0.65,
-      "evidence": "Mencionado explicitamente como 'Cyber Managed Services' — pode incluir SOC operacional, mas é consultoria BIG4"
+      "tripla_solution": "DRP CyberWatch / Pentest",
+      "confidence": 0.70,
+      "evidence": "Página /cyber-response/ — IDC MarketScape destaca KPMG como líder em incident response. Serviço de consultoria/resposta a incidentes, não produto."
     }
   ],
   "monitoring_urls": {
-    "CLIENTS_CASES": [
-      "https://kpmg.com/br/pt/services/advisory/risk-consulting/cyber-security.html"
-    ],
+    "CLIENTS_CASES": ["https://kpmg.com/br/pt/insights.html"],
     "OFFERS": [
       "https://kpmg.com/br/pt/services/advisory/risk-consulting/cyber-security.html",
-      "https://kpmg.com/br/pt/services/advisory/risk-consulting/cyber-security/cyber-managed-services.html"
+      "https://kpmg.com/br/pt/services/advisory/risk-consulting/cyber-security/cyber-managed-services.html",
+      "https://kpmg.com/br/pt/services/advisory/risk-consulting/cyber-security/cyber-defense.html"
     ],
-    "NEWS_LAUNCHES": [
-      "https://kpmg.com/br/pt/insights.html"
-    ]
+    "NEWS_LAUNCHES": ["https://kpmg.com/br/pt/insights.html"]
   },
-  "collection_errors": [],
-  "pages_analyzed": 1,
-  "notes": "KPMG é BIG4 — foco em consultoria advisory, não em produtos/serviços gerenciados de tecnologia. Regra: não confundir advisory com produto. Sobreposição real com Tripla é baixa. Cyber Managed Services merece investigação adicional."
+  "collection_errors": [
+    {
+      "url": "https://kpmg.com/br/pt/home/services/advisory/risk-consulting/cyber-managed-services.html",
+      "error": "URL antiga retornou 404. URL correta: /services/advisory/risk-consulting/cyber-security/cyber-managed-services.html",
+      "stage": "scrape"
+    }
+  ],
+  "pages_analyzed": 2,
+  "notes": "KPMG é BIG4 — foco em consultoria advisory. Cyber Managed Services confirmado como produto mas provavelmente advisory + tecnologia parceira. Sobreposição com Tripla é baixa-moderada. Não confundir consultoria com produto gerenciado."
 }

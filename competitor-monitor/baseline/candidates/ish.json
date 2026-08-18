@@ -7,17 +7,65 @@
   "clients": [],
   "cases": [],
   "offers": [
-    {"name": "Cibersegurança (geral)", "tripla_overlap": "INDETERMINADO", "tripla_solution": null, "confidence": 0.60, "evidence": "URL map inclui /portfolio e /testimonial — conteúdo real não coletado. Site pode ser template WordPress"},
-    {"name": "SOC/MDR (inferido)", "tripla_overlap": "INDETERMINADO", "tripla_solution": "SOC/MDR CyberWatch", "confidence": 0.50, "evidence": "ISH é conhecida no mercado por SOC — porém conteúdo do site não confirmou"}
+    {
+      "name": "SOCaaS — Operações Cibernéticas (ISH Vision)",
+      "tripla_overlap": "TOTAL",
+      "tripla_solution": "SOC/MDR CyberWatch",
+      "confidence": 0.90,
+      "evidence": "Página /solucoes/ciberseguranca/: 'SOC como serviço — analisamos o risco exposto e elaboramos estratégia de resposta'. Monitoramento de nuvem, rede, sistemas, aplicações e dispositivos."
+    },
+    {
+      "name": "Sustentação Cibernética MSS (ISH Vision)",
+      "tripla_overlap": "TOTAL",
+      "tripla_solution": "MSS CyberWatch",
+      "confidence": 0.90,
+      "evidence": "'Segurança totalmente gerenciada, monitoramento remoto 24x7'. Plataforma integra novas tecnologias com as existentes na organização."
+    },
+    {
+      "name": "Identidade Cibernética — IAM (ISH Vision)",
+      "tripla_overlap": "TOTAL",
+      "tripla_solution": "IAM/IGA (Okta) / PAM (BeyondTrust)",
+      "confidence": 0.90,
+      "evidence": "'Faça a gestão de acessos de modo ágil, automatizado e de confiança zero. Controle identidades e direitos de acesso além dos perímetros de TI tradicional'."
+    },
+    {
+      "name": "SECaaS — Integração Cibernética (ISH Vision)",
+      "tripla_overlap": "TOTAL",
+      "tripla_solution": "SOC/MDR CyberWatch / MSS CyberWatch",
+      "confidence": 0.85,
+      "evidence": "'Proteção integrada de redes, nuvem, aplicações, dados e plataformas no modelo assinatura'. Serviço gerenciado abrangente."
+    },
+    {
+      "name": "IRM — Risco Cibernético (gestão integrada de riscos)",
+      "tripla_overlap": "PARCIAL",
+      "tripla_solution": "GRC/Compliance / TPRM",
+      "confidence": 0.85,
+      "evidence": "Risco digital (AI/ML), risco de terceiros, risco de privacidade, continuidade de negócios. Tripla tem TPRM e GRC/Compliance mas sem plataforma IRM integrada própria."
+    },
+    {
+      "name": "GRC (solução listada no site)",
+      "tripla_overlap": "PARCIAL",
+      "tripla_solution": "GRC/Compliance",
+      "confidence": 0.80,
+      "evidence": "Solução /solucoes/grc/ listada explicitamente. Conteúdo detalhado não coletado."
+    }
   ],
   "monitoring_urls": {
-    "CLIENTS_CASES": ["https://www.ish.com.br/portfolio", "https://www.ish.com.br/testimonial"],
-    "OFFERS": ["https://www.ish.com.br"],
-    "NEWS_LAUNCHES": ["https://www.ish.com.br/blog"]
+    "CLIENTS_CASES": ["https://ish.com.br/cases/", "https://ish.com.br/clientes/"],
+    "OFFERS": [
+      "https://ish.com.br/solucoes/ciberseguranca/",
+      "https://ish.com.br/solucoes/grc/",
+      "https://ish.com.br/solucoes/riscos-digitais/"
+    ],
+    "NEWS_LAUNCHES": ["https://ish.com.br/blog/"]
   },
   "collection_errors": [
-    {"url": "https://www.ish.com.br", "error": "Site parece usar tema WordPress com conteúdo demo (nomes como Justin Novak, Norton Berry) — conteúdo real não distinguível", "stage": "scrape"}
+    {
+      "url": "https://www.ish.com.br",
+      "error": "www. redireciona para conteúdo demo/template. URL correta é ish.com.br (sem www)",
+      "stage": "scrape"
+    }
   ],
-  "pages_analyzed": 0,
-  "notes": "ISH é concorrente conhecida no mercado brasileiro de cibersegurança. Site possivelmente usa template com conteúdo demo. Requer visita manual para confirmar portfólio real. Confidence muito baixa — dados insuficientes."
+  "pages_analyzed": 2,
+  "notes": "ISH Tecnologia é concorrente direto relevante em SOC/MDR, MSS e IAM. Produto proprietário ISH Vision (plataforma integrada). Alta sobreposição com Tripla em operações de segurança gerenciada. URL correta: ish.com.br (não www.ish.com.br)."
 }
