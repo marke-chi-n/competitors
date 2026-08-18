@@ -2,27 +2,38 @@
   "competitor_id": "bhs",
   "competitor_name": "BHS",
   "baseline_status": "candidate",
-  "generated_at": "2026-08-10T14:13:51.457558+00:00",
+  "generated_at": "2026-08-18T00:00:00Z",
   "approved_at": null,
-  "clients": [],
-  "cases": [],
-  "offers": [],
-  "monitoring_urls": {
-    "CLIENTS_CASES": [],
-    "OFFERS": [],
-    "NEWS_LAUNCHES": []
-  },
-  "collection_errors": [
-    {
-      "url": "https://bhs.com.br",
-      "error": "HTTPSConnectionPool(host='api.firecrawl.dev', port=443): Max retries exceeded with url: /v2/scrape (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
-      "stage": "map_fallback"
-    },
-    {
-      "url": "https://bhs.com.br",
-      "error": "No relevant pages discovered",
-      "stage": "discovery"
-    }
+  "clients": [
+    {"name": "FIEMG", "source_url": "https://bhs.com.br/portfolio/fiemg/", "confidence": 0.95},
+    {"name": "Blossom Consult", "source_url": "https://bhs.com.br/portfolio/blossom/", "confidence": 0.95},
+    {"name": "BS2", "source_url": "https://bhs.com.br/portfolio/bs2/", "confidence": 0.95},
+    {"name": "Tegra", "source_url": "https://bhs.com.br/portfolio/tegra/", "confidence": 0.95},
+    {"name": "RHI Magnesita", "source_url": "https://bhs.com.br/portfolio/rhi/", "confidence": 0.95},
+    {"name": "Cemig", "source_url": "https://bhs.com.br/portfolio/cemig/", "confidence": 0.95},
+    {"name": "Patrus", "source_url": "https://bhs.com.br/portfolio/patrus/", "confidence": 0.95},
+    {"name": "Grupo SADA", "source_url": "https://bhs.com.br/portfolio/sada/", "confidence": 0.95},
+    {"name": "Monte Bravo", "source_url": "https://bhs.com.br/portfolio/monte-bravo/", "confidence": 0.95}
   ],
-  "pages_analyzed": 0
+  "cases": [
+    {"client": "FIEMG", "description": "Atendimento com IA via Microsoft Copilot Studio", "source_url": "https://bhs.com.br/portfolio/fiemg/", "confidence": 0.95},
+    {"client": "BS2", "description": "Outsourcing de TI na corrida do PIX", "source_url": "https://bhs.com.br/portfolio/bs2/", "confidence": 0.95},
+    {"client": "Tegra", "description": "Migração do ambiente SAP para Azure", "source_url": "https://bhs.com.br/portfolio/tegra/", "confidence": 0.95},
+    {"client": "Cemig", "description": "Cemig Atende: agência virtual de autoatendimento + Outsourcing TI (Cemig SIM)", "source_url": "https://bhs.com.br/portfolio/cemig/", "confidence": 0.95},
+    {"client": "Patrus", "description": "Maturidade de segurança com soluções Microsoft + redução de 70% de custos com Azure Virtual Desktop", "source_url": "https://bhs.com.br/portfolio/patrus/", "confidence": 0.95},
+    {"client": "Monte Bravo", "description": "Segurança e conformidade na transição", "source_url": "https://bhs.com.br/portfolio/monte-bravo/", "confidence": 0.95}
+  ],
+  "offers": [
+    {"name": "SOC 24x7", "tripla_overlap": "TOTAL", "tripla_solution": "SOC/MDR CyberWatch", "confidence": 0.90, "evidence": "Página dedicada SOC 24x7 em /services/soc-24x7/"},
+    {"name": "Segurança Gerenciada (Microsoft)", "tripla_overlap": "PARCIAL", "tripla_solution": "SOC/MDR CyberWatch", "confidence": 0.85, "evidence": "Segurança gerenciada do ambiente Microsoft — foco em M365/Azure, não SIEM neutro"},
+    {"name": "Microsoft 365 / Azure Cloud", "tripla_overlap": "FORA_DE_PORTFOLIO", "tripla_solution": null, "confidence": 0.90, "evidence": "BHS é fortemente focada no ecossistema Microsoft — não cibersegurança pura"}
+  ],
+  "monitoring_urls": {
+    "CLIENTS_CASES": ["https://bhs.com.br/cases-e-resultados/"],
+    "OFFERS": ["https://bhs.com.br/services_group/ciberseguranca/", "https://bhs.com.br/services/soc-24x7/", "https://bhs.com.br/services/seguranca-gerenciada/"],
+    "NEWS_LAUNCHES": ["https://bhs.com.br/blog"]
+  },
+  "collection_errors": [],
+  "pages_analyzed": 2,
+  "notes": "BHS é parceira Microsoft especializada. Segmenta por indústria: energia, finanças, manufatura, logística. SOC 24x7 é concorrência direta com CyberWatch Tripla."
 }

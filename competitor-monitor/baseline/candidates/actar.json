@@ -1,0 +1,26 @@
+{
+  "competitor_id": "actar",
+  "competitor_name": "Actar",
+  "baseline_status": "candidate",
+  "generated_at": "2026-08-18T00:00:00Z",
+  "approved_at": null,
+  "clients": [],
+  "cases": [],
+  "offers": [
+    {"name": "Cyber Security (geral)", "tripla_overlap": "INDETERMINADO", "tripla_solution": null, "confidence": 0.60, "evidence": "URL /nossas-solucoes/cyber-security — página retornou apenas seletores de idioma, sem conteúdo detalhado"},
+    {"name": "Zero Trust", "tripla_overlap": "PARCIAL", "tripla_solution": "SASE/ZTNA", "confidence": 0.65, "evidence": "URL /nossas-solucoes/zero-trust no mapa do site"},
+    {"name": "Privacidade e Proteção de Dados", "tripla_overlap": "PARCIAL", "tripla_solution": "DLP / LGPD Compliance", "confidence": 0.65, "evidence": "URL /nossas-solucoes/privacidade-e-protecao-de-dados no mapa do site"},
+    {"name": "DevSecOps", "tripla_overlap": "FORA_DE_PORTFOLIO", "tripla_solution": null, "confidence": 0.70, "evidence": "URL /nossas-solucoes/devsecops no mapa do site"},
+    {"name": "Consultoria em Cibersegurança", "tripla_overlap": "INDETERMINADO", "tripla_solution": null, "confidence": 0.60, "evidence": "URL /consultoria-em-ciberseguranca — conteúdo não coletado"}
+  ],
+  "monitoring_urls": {
+    "CLIENTS_CASES": ["https://actar.com.br"],
+    "OFFERS": ["https://actar.com.br/nossas-solucoes/cyber-security", "https://actar.com.br/nossas-solucoes/zero-trust", "https://actar.com.br/nossas-solucoes/privacidade-e-protecao-de-dados"],
+    "NEWS_LAUNCHES": ["https://actar.com.br/blog"]
+  },
+  "collection_errors": [
+    {"url": "https://actar.com.br/nossas-solucoes/cyber-security", "error": "Página retornou apenas seletores de idioma (Elementor/WordPress), sem conteúdo de ofertas", "stage": "scrape"}
+  ],
+  "pages_analyzed": 1,
+  "notes": "Conteúdo da Actar não carregou corretamente (possivelmente renderização JS). Dados baseados apenas em URLs. Confidence baixa — requer revisita ou visita manual."
+}

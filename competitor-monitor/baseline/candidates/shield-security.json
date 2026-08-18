@@ -2,27 +2,24 @@
   "competitor_id": "shield-security",
   "competitor_name": "Shield Security",
   "baseline_status": "candidate",
-  "generated_at": "2026-08-10T14:16:21.428945+00:00",
+  "generated_at": "2026-08-18T00:00:00Z",
   "approved_at": null,
-  "clients": [],
-  "cases": [],
-  "offers": [],
-  "monitoring_urls": {
-    "CLIENTS_CASES": [],
-    "OFFERS": [],
-    "NEWS_LAUNCHES": []
-  },
-  "collection_errors": [
-    {
-      "url": "https://shieldsec.com.br",
-      "error": "HTTPSConnectionPool(host='api.firecrawl.dev', port=443): Max retries exceeded with url: /v2/scrape (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
-      "stage": "map_fallback"
-    },
-    {
-      "url": "https://shieldsec.com.br",
-      "error": "No relevant pages discovered",
-      "stage": "discovery"
-    }
+  "clients": [
+    {"name": "Drogaria Araújo", "source_url": "https://shieldsec.com.br/cases-drogaria-araujo", "confidence": 0.90}
   ],
-  "pages_analyzed": 0
+  "cases": [
+    {"client": "Drogaria Araújo", "description": "Case de segurança publicado no site", "source_url": "https://shieldsec.com.br/cases-drogaria-araujo", "confidence": 0.90}
+  ],
+  "offers": [
+    {"name": "SOC/MDR", "tripla_overlap": "TOTAL", "tripla_solution": "SOC/MDR CyberWatch", "confidence": 0.75, "evidence": "URL /cases indica monitoramento de segurança; blog com artigos de SOC"},
+    {"name": "Pentest / Segurança Ofensiva", "tripla_overlap": "TOTAL", "tripla_solution": "Pentest", "confidence": 0.75, "evidence": "Site de empresa especializada em cibersegurança com blog técnico"}
+  ],
+  "monitoring_urls": {
+    "CLIENTS_CASES": ["https://shieldsec.com.br/cases-drogaria-araujo", "https://shieldsec.com.br/quem-somos"],
+    "OFFERS": ["https://shieldsec.com.br"],
+    "NEWS_LAUNCHES": ["https://shieldsec.com.br/blog"]
+  },
+  "collection_errors": [],
+  "pages_analyzed": 3,
+  "notes": "Homepage retornou conteúdo muito extenso (85k chars). Dados inferidos do mapa de URLs e título de cases. Requer revisão humana."
 }

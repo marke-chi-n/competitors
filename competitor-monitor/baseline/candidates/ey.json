@@ -1,0 +1,28 @@
+{
+  "competitor_id": "ey",
+  "competitor_name": "EY Brasil",
+  "baseline_status": "candidate",
+  "generated_at": "2026-08-18T00:00:00Z",
+  "approved_at": null,
+  "clients": [
+    {"name": "Banco do Brasil", "source_url": "https://www.ey.com/pt_br/newsroom/2025/06/banco-do-brasil-adota-governanca-de-ia-com-ibm-e-ey", "confidence": 0.90, "evidence": "Newsroom: 'Banco do Brasil adota governança de IA com IBM e EY'"}
+  ],
+  "cases": [
+    {"client": "Banco do Brasil", "description": "Governança de IA com IBM e EY — estrutura de uso responsável de IA", "source_url": "https://www.ey.com/pt_br/newsroom/2025/06/banco-do-brasil-adota-governanca-de-ia-com-ibm-e-ey", "confidence": 0.90}
+  ],
+  "offers": [
+    {"name": "Consultoria de Cybersecurity", "tripla_overlap": "FORA_DE_PORTFOLIO", "tripla_solution": null, "confidence": 0.75, "evidence": "EY BIG4 — página de cybersecurity retornou 404, mas EY oferece consultoria de segurança"},
+    {"name": "Automação Inteligente / IA", "tripla_overlap": "FORA_DE_PORTFOLIO", "tripla_solution": null, "confidence": 0.90, "evidence": "EY tem forte foco em IA e automação inteligente — fora do portfólio Tripla"},
+    {"name": "Serviços Gerenciados (EY)", "tripla_overlap": "INDETERMINADO", "tripla_solution": null, "confidence": 0.55, "evidence": "EY tem área de 'Serviços Gerenciados' mas foco não parece ser cibersegurança operacional"}
+  ],
+  "monitoring_urls": {
+    "CLIENTS_CASES": ["https://www.ey.com/pt_br/newsroom"],
+    "OFFERS": ["https://www.ey.com/pt_br/services/consulting", "https://www.ey.com/pt_br/services/managed-services"],
+    "NEWS_LAUNCHES": ["https://www.ey.com/pt_br/newsroom"]
+  },
+  "collection_errors": [
+    {"url": "https://www.ey.com/pt_br/services/consulting/cybersecurity", "error": "404 Not Found", "stage": "scrape"}
+  ],
+  "pages_analyzed": 0,
+  "notes": "EY BIG4 — advisory, auditoria. Sobreposição com Tripla: mínima. Destaque: Aliança com Microsoft e IBM para IA. Monitorar newsroom para novos clientes relevantes."
+}

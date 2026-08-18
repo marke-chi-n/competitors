@@ -1,0 +1,45 @@
+{
+  "competitor_id": "3corp",
+  "competitor_name": "3CORP Technology",
+  "baseline_status": "candidate",
+  "generated_at": "2026-08-18T00:00:00Z",
+  "approved_at": null,
+  "clients": [
+    {"name": "Grupo Casas Bahia", "source_url": "https://www.3corp.com.br/case/grupo-casas-bahia/2", "confidence": 0.95},
+    {"name": "Paschoalotto", "source_url": "https://www.3corp.com.br/case/paschoalotto/5", "confidence": 0.95},
+    {"name": "Banco do Nordeste (BNB)", "source_url": "https://www.3corp.com.br/case/banco-do-nordeste/6", "confidence": 0.95},
+    {"name": "DETRAN-SP", "source_url": "https://www.3corp.com.br/case/detran-ndash-sp/7", "confidence": 0.95},
+    {"name": "ARTESP", "source_url": "https://www.3corp.com.br/case/artesp/8", "confidence": 0.95},
+    {"name": "Prefeitura de Itapevi", "source_url": "https://www.3corp.com.br/case/prefeitura-de-itapevi/9", "confidence": 0.95},
+    {"name": "CREA-SP", "source_url": "https://www.3corp.com.br/case/crea-sp/10", "confidence": 0.95},
+    {"name": "Tribunal de Contas - RJ (TCE-RJ)", "source_url": "https://www.3corp.com.br/case/tribunal-de-contas-rj/20", "confidence": 0.95},
+    {"name": "Câmara Municipal de Porto Alegre", "source_url": "https://www.3corp.com.br/case/camara-de-porto-alegre/24", "confidence": 0.95},
+    {"name": "Correios", "source_url": "https://www.3corp.com.br/cases/", "confidence": 0.80},
+    {"name": "Via Varejo", "source_url": "https://www.3corp.com.br/cases/", "confidence": 0.80},
+    {"name": "CCR Via Sul", "source_url": "https://www.3corp.com.br/cases/", "confidence": 0.80},
+    {"name": "NWI Telecom", "source_url": "https://www.3corp.com.br/cases/", "confidence": 0.80},
+    {"name": "Ministério Público RJ", "source_url": "https://www.3corp.com.br/cases/", "confidence": 0.80},
+    {"name": "PMDF", "source_url": "https://www.3corp.com.br/cases/", "confidence": 0.80},
+    {"name": "Sodexo", "source_url": "https://www.3corp.com.br/cases/", "confidence": 0.80},
+    {"name": "Vogel", "source_url": "https://www.3corp.com.br/cases/", "confidence": 0.80}
+  ],
+  "cases": [
+    {"client": "Grupo Casas Bahia", "description": "Case publicado no site", "source_url": "https://www.3corp.com.br/case/grupo-casas-bahia/2", "confidence": 0.95},
+    {"client": "Banco do Nordeste", "description": "Case publicado no site", "source_url": "https://www.3corp.com.br/case/banco-do-nordeste/6", "confidence": 0.95},
+    {"client": "DETRAN-SP", "description": "Case publicado no site", "source_url": "https://www.3corp.com.br/case/detran-ndash-sp/7", "confidence": 0.95}
+  ],
+  "offers": [
+    {"name": "Segurança de Rede - Firewall (Huawei)", "tripla_overlap": "PARCIAL", "tripla_solution": "NGFW", "confidence": 0.85, "evidence": "Página dedicada /solucoes/Seguranca-de-Rede-Firewall"},
+    {"name": "Infraestrutura de TI / Servidores e Storage", "tripla_overlap": "FORA_DE_PORTFOLIO", "tripla_solution": null, "confidence": 0.90, "evidence": "Foco principal em infraestrutura, não cibersegurança"},
+    {"name": "WLAN / Redes LAN / Fibra Óptica", "tripla_overlap": "FORA_DE_PORTFOLIO", "tripla_solution": null, "confidence": 0.90, "evidence": "Networking/telecom — fora do escopo Tripla"},
+    {"name": "SMART CITIES", "tripla_overlap": "FORA_DE_PORTFOLIO", "tripla_solution": null, "confidence": 0.85, "evidence": "Produto de smart city, não cibersegurança"}
+  ],
+  "monitoring_urls": {
+    "CLIENTS_CASES": ["https://www.3corp.com.br/cases/", "https://www.3corp.com.br/clientes"],
+    "OFFERS": ["https://www.3corp.com.br/solucoes/Seguranca-de-Rede-Firewall"],
+    "NEWS_LAUNCHES": ["https://www.3corp.com.br/blog", "https://www.3corp.com.br/imprensa"]
+  },
+  "collection_errors": [],
+  "pages_analyzed": 1,
+  "notes": "3CORP é principalmente integradora de infraestrutura e telecom (Huawei). Sobreposição com Tripla limitada a Firewall. Muitos clientes governo/público."
+}

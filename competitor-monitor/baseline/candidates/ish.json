@@ -1,28 +1,23 @@
 {
   "competitor_id": "ish",
-  "competitor_name": "ISH",
+  "competitor_name": "ISH Tecnologia",
   "baseline_status": "candidate",
-  "generated_at": "2026-08-10T14:14:04.525654+00:00",
+  "generated_at": "2026-08-18T00:00:00Z",
   "approved_at": null,
   "clients": [],
   "cases": [],
-  "offers": [],
+  "offers": [
+    {"name": "Cibersegurança (geral)", "tripla_overlap": "INDETERMINADO", "tripla_solution": null, "confidence": 0.60, "evidence": "URL map inclui /portfolio e /testimonial — conteúdo real não coletado. Site pode ser template WordPress"},
+    {"name": "SOC/MDR (inferido)", "tripla_overlap": "INDETERMINADO", "tripla_solution": "SOC/MDR CyberWatch", "confidence": 0.50, "evidence": "ISH é conhecida no mercado por SOC — porém conteúdo do site não confirmou"}
+  ],
   "monitoring_urls": {
-    "CLIENTS_CASES": [],
-    "OFFERS": [],
-    "NEWS_LAUNCHES": []
+    "CLIENTS_CASES": ["https://www.ish.com.br/portfolio", "https://www.ish.com.br/testimonial"],
+    "OFFERS": ["https://www.ish.com.br"],
+    "NEWS_LAUNCHES": ["https://www.ish.com.br/blog"]
   },
   "collection_errors": [
-    {
-      "url": "https://ish.com.br",
-      "error": "HTTPSConnectionPool(host='api.firecrawl.dev', port=443): Max retries exceeded with url: /v2/scrape (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
-      "stage": "map_fallback"
-    },
-    {
-      "url": "https://ish.com.br",
-      "error": "No relevant pages discovered",
-      "stage": "discovery"
-    }
+    {"url": "https://www.ish.com.br", "error": "Site parece usar tema WordPress com conteúdo demo (nomes como Justin Novak, Norton Berry) — conteúdo real não distinguível", "stage": "scrape"}
   ],
-  "pages_analyzed": 0
+  "pages_analyzed": 0,
+  "notes": "ISH é concorrente conhecida no mercado brasileiro de cibersegurança. Site possivelmente usa template com conteúdo demo. Requer visita manual para confirmar portfólio real. Confidence muito baixa — dados insuficientes."
 }

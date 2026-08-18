@@ -1,28 +1,23 @@
 {
   "competitor_id": "pwc",
-  "competitor_name": "PwC",
+  "competitor_name": "PwC Brasil",
   "baseline_status": "candidate",
-  "generated_at": "2026-08-10T14:14:57.959647+00:00",
+  "generated_at": "2026-08-18T00:00:00Z",
   "approved_at": null,
   "clients": [],
   "cases": [],
-  "offers": [],
+  "offers": [
+    {"name": "Consultoria de Cybersecurity (Digital Trust)", "tripla_overlap": "FORA_DE_PORTFOLIO", "tripla_solution": null, "confidence": 0.80, "evidence": "PwC BIG4 — foco em advisory e auditoria de cibersegurança, não em managed services ou produtos"},
+    {"name": "Consultoria de Negócios / Digital", "tripla_overlap": "FORA_DE_PORTFOLIO", "tripla_solution": null, "confidence": 0.90, "evidence": "Auditoria, consultoria tributária, consultoria de negócios — core BIG4"}
+  ],
   "monitoring_urls": {
-    "CLIENTS_CASES": [],
-    "OFFERS": [],
+    "CLIENTS_CASES": ["https://www.pwc.com.br/pt/consultoria/cases-sucesso.html"],
+    "OFFERS": ["https://www.pwc.com.br/pt/consultoria.html", "https://www.pwc.com.br/pt/digital.html"],
     "NEWS_LAUNCHES": []
   },
   "collection_errors": [
-    {
-      "url": "https://pwc.com.br",
-      "error": "HTTPSConnectionPool(host='api.firecrawl.dev', port=443): Max retries exceeded with url: /v2/scrape (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
-      "stage": "map_fallback"
-    },
-    {
-      "url": "https://pwc.com.br",
-      "error": "No relevant pages discovered",
-      "stage": "discovery"
-    }
+    {"url": "https://www.pwc.com.br/pt/consultoria/digital-trust/cyber-security.html", "error": "404 Not Found — URL de cybersecurity da PwC BR não encontrada", "stage": "scrape"}
   ],
-  "pages_analyzed": 0
+  "pages_analyzed": 0,
+  "notes": "PwC é BIG4 — consultoria advisory, não produto de tecnologia. Sobreposição com Tripla é irrelevante na prática. Monitorar cases de sucesso para identificar clientes comuns."
 }

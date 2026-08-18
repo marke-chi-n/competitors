@@ -1,28 +1,25 @@
 {
   "competitor_id": "kpmg",
-  "competitor_name": "KPMG",
+  "competitor_name": "KPMG Brasil",
   "baseline_status": "candidate",
-  "generated_at": "2026-08-10T14:13:37.057584+00:00",
+  "generated_at": "2026-08-18T00:00:00Z",
   "approved_at": null,
   "clients": [],
   "cases": [],
-  "offers": [],
-  "monitoring_urls": {
-    "CLIENTS_CASES": [],
-    "OFFERS": [],
-    "NEWS_LAUNCHES": []
-  },
-  "collection_errors": [
-    {
-      "url": "https://kpmg.com/br/pt/home.html",
-      "error": "HTTPSConnectionPool(host='api.firecrawl.dev', port=443): Max retries exceeded with url: /v2/scrape (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
-      "stage": "map_fallback"
-    },
-    {
-      "url": "https://kpmg.com/br/pt/home.html",
-      "error": "No relevant pages discovered",
-      "stage": "discovery"
-    }
+  "offers": [
+    {"name": "Estratégia e Governança de Cibersegurança", "tripla_overlap": "FORA_DE_PORTFOLIO", "tripla_solution": null, "confidence": 0.85, "evidence": "Consultoria advisory BIG4 — não é produto/serviço gerenciado de tecnologia"},
+    {"name": "Segurança da Transformação Digital", "tripla_overlap": "FORA_DE_PORTFOLIO", "tripla_solution": null, "confidence": 0.85, "evidence": "Advisory consulting, não managed service"},
+    {"name": "Defesa Cibernética (Cyber Defense)", "tripla_overlap": "INDETERMINADO", "tripla_solution": "SOC/MDR CyberWatch", "confidence": 0.60, "evidence": "Nome sugere sobreposição, mas KPMG é consultoria advisory — sem evidência de managed SOC/MDR operacional"},
+    {"name": "Resposta Cibernética (Incident Response)", "tripla_overlap": "PARCIAL", "tripla_solution": "Incident Response", "confidence": 0.65, "evidence": "IDC destaca KPMG como líder em Incident Response global — serviço de consultoria, não produto"},
+    {"name": "Segurança e Governança em Nuvem", "tripla_overlap": "FORA_DE_PORTFOLIO", "tripla_solution": null, "confidence": 0.80, "evidence": "Cloud security advisory, não produto"},
+    {"name": "Cyber Managed Services", "tripla_overlap": "PARCIAL", "tripla_solution": "SOC/MDR CyberWatch", "confidence": 0.65, "evidence": "Mencionado explicitamente como 'Cyber Managed Services' — pode incluir SOC operacional, mas é consultoria BIG4"}
   ],
-  "pages_analyzed": 0
+  "monitoring_urls": {
+    "CLIENTS_CASES": ["https://kpmg.com/br/pt/services/advisory/risk-consulting/cyber-security.html"],
+    "OFFERS": ["https://kpmg.com/br/pt/services/advisory/risk-consulting/cyber-security.html", "https://kpmg.com/br/pt/services/advisory/risk-consulting/cyber-security/cyber-managed-services.html"],
+    "NEWS_LAUNCHES": ["https://kpmg.com/br/pt/insights.html"]
+  },
+  "collection_errors": [],
+  "pages_analyzed": 1,
+  "notes": "KPMG é BIG4 — foco em consultoria advisory, não em produtos/serviços gerenciados de tecnologia. Regra: não confundir advisory com produto. Sobreposição real com Tripla é baixa. Cyber Managed Services merece investigação adicional."
 }

@@ -1,28 +1,24 @@
 {
   "competitor_id": "tecno-it",
-  "competitor_name": "Tecno IT",
+  "competitor_name": "Tecno-IT",
   "baseline_status": "candidate",
-  "generated_at": "2026-08-10T14:14:44.561704+00:00",
+  "generated_at": "2026-08-18T00:00:00Z",
   "approved_at": null,
-  "clients": [],
+  "clients": [
+    {"name": "Prefeitura de Boa Vista (RR)", "source_url": "https://tecnoit.com.br", "confidence": 0.80, "evidence": "Smart city case mencionado no mapa do site"},
+    {"name": "Prefeitura de Aparecida de Goiânia (GO)", "source_url": "https://tecnoit.com.br", "confidence": 0.80, "evidence": "Smart city case mencionado no mapa do site"}
+  ],
   "cases": [],
-  "offers": [],
+  "offers": [
+    {"name": "Smart City (TI municipal)", "tripla_overlap": "FORA_DE_PORTFOLIO", "tripla_solution": null, "confidence": 0.85, "evidence": "Foco declarado em smart cities — fora do portfólio Tripla"},
+    {"name": "Soluções de TI genérica", "tripla_overlap": "INDETERMINADO", "tripla_solution": null, "confidence": 0.50, "evidence": "URL /solucoes — conteúdo não coletado"}
+  ],
   "monitoring_urls": {
-    "CLIENTS_CASES": [],
-    "OFFERS": [],
+    "CLIENTS_CASES": ["https://tecnoit.com.br/nossos-cases"],
+    "OFFERS": ["https://tecnoit.com.br/solucoes"],
     "NEWS_LAUNCHES": []
   },
-  "collection_errors": [
-    {
-      "url": "https://tecnoit.com.br",
-      "error": "HTTPSConnectionPool(host='api.firecrawl.dev', port=443): Max retries exceeded with url: /v2/scrape (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))",
-      "stage": "map_fallback"
-    },
-    {
-      "url": "https://tecnoit.com.br",
-      "error": "No relevant pages discovered",
-      "stage": "discovery"
-    }
-  ],
-  "pages_analyzed": 0
+  "collection_errors": [],
+  "pages_analyzed": 0,
+  "notes": "Tecno-IT está em recuperação judicial. Foco em smart city — baixa sobreposição com Tripla. Prioridade de monitoramento: BAIXA. Verificar se continua operacional."
 }
