@@ -6,16 +6,22 @@
   "approved_at": null,
   "clients": [],
   "cases": [],
-  "offers": [
-    {"name": "Cybersecurity Advisory / Consulting", "tripla_overlap": "FORA_DE_PORTFOLIO", "tripla_solution": null, "confidence": 0.80, "evidence": "Deloitte BIG4 — serviços de consultoria e advisory em cibersegurança, não managed services de tecnologia"}
-  ],
+  "offers": [],
   "monitoring_urls": {
-    "CLIENTS_CASES": ["https://www.deloitte.com/pt-pt/pages/technology/solutions/cybersecurity.html"],
-    "OFFERS": ["https://www.deloitte.com/pt-pt/pages/technology/solutions/cybersecurity.html"],
+    "CLIENTS_CASES": [
+      "https://www.deloitte.com/pt-pt/pages/technology/solutions/cybersecurity.html"
+    ],
+    "OFFERS": [
+      "https://www.deloitte.com/pt-pt/pages/technology/solutions/cybersecurity.html"
+    ],
     "NEWS_LAUNCHES": []
   },
   "collection_errors": [
-    {"url": "https://www.deloitte.com/pt-pt/pages/technology/solutions/cybersecurity.html", "error": "Firecrawl map retornou apenas 1 URL — site possivelmente bloqueia crawler", "stage": "map"}
+    {
+      "url": "https://www.deloitte.com/pt-pt/pages/technology/solutions/cybersecurity.html",
+      "error": "Firecrawl map retornou apenas 1 URL — site possivelmente bloqueia crawler",
+      "stage": "map"
+    }
   ],
   "pages_analyzed": 0,
   "notes": "Deloitte BIG4 — sobreposição com Tripla é baixa (advisory vs. managed service). Site bloqueou mapeamento. Requer visita manual para detalhes."

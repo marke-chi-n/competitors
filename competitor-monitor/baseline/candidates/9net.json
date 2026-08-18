@@ -7,24 +7,104 @@
   "clients": [],
   "cases": [],
   "offers": [
-    {"name": "MSS / SNOC 24x7 (Security Continuous Monitoring)", "tripla_overlap": "TOTAL", "tripla_solution": "SOC/MDR CyberWatch", "confidence": 0.90, "evidence": "Página de Segurança: 'SNOC 9NET monitora de forma contínua 24h/7d'"},
-    {"name": "SOC (Security Operations Center)", "tripla_overlap": "TOTAL", "tripla_solution": "SOC/MDR CyberWatch", "confidence": 0.90, "evidence": "SOC listado explicitamente nos serviços"},
-    {"name": "SOAR (Security Orchestration, Automation and Response)", "tripla_overlap": "PARCIAL", "tripla_solution": "SOC/MDR CyberWatch", "confidence": 0.85, "evidence": "SOAR listado explicitamente"},
-    {"name": "Endpoint Security / EDR + DLP + Data Discovery", "tripla_overlap": "TOTAL", "tripla_solution": "EDR / DLP", "confidence": 0.90, "evidence": "'antivírus, DLP, Data Discovery e EDR' listados explicitamente"},
-    {"name": "IAM - Identity Management", "tripla_overlap": "TOTAL", "tripla_solution": "IAM/PAM", "confidence": 0.90, "evidence": "IAM listado explicitamente"},
-    {"name": "Cloud Security", "tripla_overlap": "PARCIAL", "tripla_solution": "Cloud Security", "confidence": 0.85, "evidence": "Cloud Security listado nos serviços"},
-    {"name": "WAF (Web Application Firewall)", "tripla_overlap": "TOTAL", "tripla_solution": "WAF", "confidence": 0.90, "evidence": "WAF listado explicitamente"},
-    {"name": "SSE / ZTNA / DLP (Security Service Edge)", "tripla_overlap": "TOTAL", "tripla_solution": "SASE/ZTNA", "confidence": 0.90, "evidence": "'Zero Trust Network Access (ZTNA) + DLP' para SSE listados"},
-    {"name": "Security Rating Monitoring", "tripla_overlap": "PARCIAL", "tripla_solution": "Vulnerability Management", "confidence": 0.80, "evidence": "Diagnóstico de exposição externa"},
-    {"name": "CISOaaS", "tripla_overlap": "PARCIAL", "tripla_solution": "vCISO / Consultoria", "confidence": 0.80, "evidence": "CISO como serviço listado"},
-    {"name": "Assessment de Segurança / Vulnerability Assessment", "tripla_overlap": "PARCIAL", "tripla_solution": "Pentest / Vulnerability Assessment", "confidence": 0.85, "evidence": "Assessment Security e Vulnerability Assessment listados"},
-    {"name": "CDN", "tripla_overlap": "FORA_DE_PORTFOLIO", "tripla_solution": null, "confidence": 0.85, "evidence": "CDN — fora do portfólio Tripla"},
-    {"name": "GRC / LGPD Compliance", "tripla_overlap": "PARCIAL", "tripla_solution": "GRC/Compliance", "confidence": 0.85, "evidence": "Página dedicada de compliance LGPD com diagnóstico gratuito"}
+    {
+      "name": "MSS / SNOC 24x7 (Security Continuous Monitoring)",
+      "tripla_overlap": "TOTAL",
+      "tripla_solution": "SOC/MDR CyberWatch",
+      "confidence": 0.9,
+      "evidence": "Página de Segurança: 'SNOC 9NET monitora de forma contínua 24h/7d'"
+    },
+    {
+      "name": "SOC (Security Operations Center)",
+      "tripla_overlap": "TOTAL",
+      "tripla_solution": "SOC/MDR CyberWatch",
+      "confidence": 0.9,
+      "evidence": "SOC listado explicitamente nos serviços"
+    },
+    {
+      "name": "SOAR (Security Orchestration, Automation and Response)",
+      "tripla_overlap": "PARCIAL",
+      "tripla_solution": "SOC/MDR CyberWatch",
+      "confidence": 0.85,
+      "evidence": "SOAR listado explicitamente"
+    },
+    {
+      "name": "Endpoint Security / EDR + DLP + Data Discovery",
+      "tripla_overlap": "TOTAL",
+      "tripla_solution": "EDR / DLP",
+      "confidence": 0.9,
+      "evidence": "'antivírus, DLP, Data Discovery e EDR' listados explicitamente"
+    },
+    {
+      "name": "IAM - Identity Management",
+      "tripla_overlap": "TOTAL",
+      "tripla_solution": "IAM/PAM",
+      "confidence": 0.9,
+      "evidence": "IAM listado explicitamente"
+    },
+    {
+      "name": "Cloud Security",
+      "tripla_overlap": "PARCIAL",
+      "tripla_solution": "Cloud Security",
+      "confidence": 0.85,
+      "evidence": "Cloud Security listado nos serviços"
+    },
+    {
+      "name": "WAF (Web Application Firewall)",
+      "tripla_overlap": "TOTAL",
+      "tripla_solution": "WAF",
+      "confidence": 0.9,
+      "evidence": "WAF listado explicitamente"
+    },
+    {
+      "name": "SSE / ZTNA / DLP (Security Service Edge)",
+      "tripla_overlap": "TOTAL",
+      "tripla_solution": "SASE/ZTNA",
+      "confidence": 0.9,
+      "evidence": "'Zero Trust Network Access (ZTNA) + DLP' para SSE listados"
+    },
+    {
+      "name": "Security Rating Monitoring",
+      "tripla_overlap": "PARCIAL",
+      "tripla_solution": "Vulnerability Management",
+      "confidence": 0.8,
+      "evidence": "Diagnóstico de exposição externa"
+    },
+    {
+      "name": "CISOaaS",
+      "tripla_overlap": "PARCIAL",
+      "tripla_solution": "vCISO / Consultoria",
+      "confidence": 0.8,
+      "evidence": "CISO como serviço listado"
+    },
+    {
+      "name": "Assessment de Segurança / Vulnerability Assessment",
+      "tripla_overlap": "PARCIAL",
+      "tripla_solution": "Pentest / Vulnerability Assessment",
+      "confidence": 0.85,
+      "evidence": "Assessment Security e Vulnerability Assessment listados"
+    },
+    {
+      "name": "GRC / LGPD Compliance",
+      "tripla_overlap": "PARCIAL",
+      "tripla_solution": "GRC/Compliance",
+      "confidence": 0.85,
+      "evidence": "Página dedicada de compliance LGPD com diagnóstico gratuito"
+    }
   ],
   "monitoring_urls": {
-    "CLIENTS_CASES": ["https://9net.com.br"],
-    "OFFERS": ["https://9net.com.br/seguranca", "https://9net.com.br/compliance", "https://9net.com.br/gestao-de-ti", "https://9net.com.br/cloud"],
-    "NEWS_LAUNCHES": ["https://9net.com.br/blog"]
+    "CLIENTS_CASES": [
+      "https://9net.com.br"
+    ],
+    "OFFERS": [
+      "https://9net.com.br/seguranca",
+      "https://9net.com.br/compliance",
+      "https://9net.com.br/gestao-de-ti",
+      "https://9net.com.br/cloud"
+    ],
+    "NEWS_LAUNCHES": [
+      "https://9net.com.br/blog"
+    ]
   },
   "collection_errors": [],
   "pages_analyzed": 2,

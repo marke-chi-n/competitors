@@ -7,24 +7,88 @@
   "clients": [],
   "cases": [],
   "offers": [
-    {"name": "SOC", "tripla_overlap": "TOTAL", "tripla_solution": "SOC/MDR CyberWatch", "confidence": 0.90, "evidence": "SOC listado explicitamente no menu de Cybersecurity"},
-    {"name": "MDR (Managed Detection & Response)", "tripla_overlap": "TOTAL", "tripla_solution": "SOC/MDR CyberWatch", "confidence": 0.90, "evidence": "MDR listado explicitamente no menu de Cybersecurity"},
-    {"name": "Managed Security Services (MSS)", "tripla_overlap": "TOTAL", "tripla_solution": "SOC/MDR CyberWatch", "confidence": 0.85, "evidence": "MSS listado no menu"},
-    {"name": "Identity & Access Management (IAM)", "tripla_overlap": "TOTAL", "tripla_solution": "IAM/PAM", "confidence": 0.90, "evidence": "IAM listado explicitamente"},
-    {"name": "TIVIT Defense", "tripla_overlap": "INDETERMINADO", "tripla_solution": null, "confidence": 0.65, "evidence": "Produto proprietário — detalhes não obtidos (página 404)"},
-    {"name": "GRC - Governance, Risk & Compliance", "tripla_overlap": "PARCIAL", "tripla_solution": "GRC/Compliance", "confidence": 0.85, "evidence": "GRC listado no menu"},
-    {"name": "TVM - Threat & Vulnerability Management", "tripla_overlap": "TOTAL", "tripla_solution": "Vulnerability Management", "confidence": 0.85, "evidence": "TVM listado explicitamente"},
-    {"name": "Red Team Services", "tripla_overlap": "TOTAL", "tripla_solution": "Pentest", "confidence": 0.85, "evidence": "Red Team listado no menu"},
-    {"name": "DevSecOps", "tripla_overlap": "FORA_DE_PORTFOLIO", "tripla_solution": null, "confidence": 0.80, "evidence": "DevSecOps — fora do portfólio Tripla"},
-    {"name": "Gerenciamento de Crises", "tripla_overlap": "PARCIAL", "tripla_solution": "Incident Response", "confidence": 0.75, "evidence": "Crisis Management listado"}
+    {
+      "name": "SOC",
+      "tripla_overlap": "TOTAL",
+      "tripla_solution": "SOC/MDR CyberWatch",
+      "confidence": 0.9,
+      "evidence": "SOC listado explicitamente no menu de Cybersecurity"
+    },
+    {
+      "name": "MDR (Managed Detection & Response)",
+      "tripla_overlap": "TOTAL",
+      "tripla_solution": "SOC/MDR CyberWatch",
+      "confidence": 0.9,
+      "evidence": "MDR listado explicitamente no menu de Cybersecurity"
+    },
+    {
+      "name": "Managed Security Services (MSS)",
+      "tripla_overlap": "TOTAL",
+      "tripla_solution": "SOC/MDR CyberWatch",
+      "confidence": 0.85,
+      "evidence": "MSS listado no menu"
+    },
+    {
+      "name": "Identity & Access Management (IAM)",
+      "tripla_overlap": "TOTAL",
+      "tripla_solution": "IAM/PAM",
+      "confidence": 0.9,
+      "evidence": "IAM listado explicitamente"
+    },
+    {
+      "name": "TIVIT Defense",
+      "tripla_overlap": "INDETERMINADO",
+      "tripla_solution": null,
+      "confidence": 0.65,
+      "evidence": "Produto proprietário — detalhes não obtidos (página 404)"
+    },
+    {
+      "name": "GRC - Governance, Risk & Compliance",
+      "tripla_overlap": "PARCIAL",
+      "tripla_solution": "GRC/Compliance",
+      "confidence": 0.85,
+      "evidence": "GRC listado no menu"
+    },
+    {
+      "name": "TVM - Threat & Vulnerability Management",
+      "tripla_overlap": "TOTAL",
+      "tripla_solution": "Vulnerability Management",
+      "confidence": 0.85,
+      "evidence": "TVM listado explicitamente"
+    },
+    {
+      "name": "Red Team Services",
+      "tripla_overlap": "TOTAL",
+      "tripla_solution": "Pentest",
+      "confidence": 0.85,
+      "evidence": "Red Team listado no menu"
+    },
+    {
+      "name": "Gerenciamento de Crises",
+      "tripla_overlap": "PARCIAL",
+      "tripla_solution": "Incident Response",
+      "confidence": 0.75,
+      "evidence": "Crisis Management listado"
+    }
   ],
   "monitoring_urls": {
-    "CLIENTS_CASES": ["https://tivit.com/cases/"],
-    "OFFERS": ["https://tivit.com/cybersecurity/", "https://tivit.com/tivit-defense/"],
-    "NEWS_LAUNCHES": ["https://tivit.com/blogs/"]
+    "CLIENTS_CASES": [
+      "https://tivit.com/cases/"
+    ],
+    "OFFERS": [
+      "https://tivit.com/cybersecurity/",
+      "https://tivit.com/tivit-defense/"
+    ],
+    "NEWS_LAUNCHES": [
+      "https://tivit.com/blogs/"
+    ]
   },
   "collection_errors": [
-    {"url": "https://www.tivit.com/solucoes/ciberseguranca", "error": "URL retornou 404 — URL correta é https://tivit.com/cybersecurity/", "stage": "scrape"}
+    {
+      "url": "https://www.tivit.com/solucoes/ciberseguranca",
+      "error": "URL retornou 404 — URL correta é https://tivit.com/cybersecurity/",
+      "stage": "scrape"
+    }
   ],
   "pages_analyzed": 1,
   "notes": "TIVIT é grande empresa de TI com portfólio abrangente de cibersegurança. Concorrente relevante em SOC, MDR, IAM, TVM. Dados obtidos apenas do menu de navegação — conteúdo detalhado não coletado."

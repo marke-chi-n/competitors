@@ -5,17 +5,36 @@
   "generated_at": "2026-08-18T00:00:00Z",
   "approved_at": null,
   "clients": [
-    {"name": "Prefeitura de Boa Vista (RR)", "source_url": "https://tecnoit.com.br", "confidence": 0.80, "evidence": "Smart city case mencionado no mapa do site"},
-    {"name": "Prefeitura de Aparecida de Goiânia (GO)", "source_url": "https://tecnoit.com.br", "confidence": 0.80, "evidence": "Smart city case mencionado no mapa do site"}
+    {
+      "name": "Prefeitura de Boa Vista (RR)",
+      "source_url": "https://tecnoit.com.br",
+      "confidence": 0.8,
+      "evidence": "Smart city case mencionado no mapa do site"
+    },
+    {
+      "name": "Prefeitura de Aparecida de Goiânia (GO)",
+      "source_url": "https://tecnoit.com.br",
+      "confidence": 0.8,
+      "evidence": "Smart city case mencionado no mapa do site"
+    }
   ],
   "cases": [],
   "offers": [
-    {"name": "Smart City (TI municipal)", "tripla_overlap": "FORA_DE_PORTFOLIO", "tripla_solution": null, "confidence": 0.85, "evidence": "Foco declarado em smart cities — fora do portfólio Tripla"},
-    {"name": "Soluções de TI genérica", "tripla_overlap": "INDETERMINADO", "tripla_solution": null, "confidence": 0.50, "evidence": "URL /solucoes — conteúdo não coletado"}
+    {
+      "name": "Soluções de TI genérica",
+      "tripla_overlap": "INDETERMINADO",
+      "tripla_solution": null,
+      "confidence": 0.5,
+      "evidence": "URL /solucoes — conteúdo não coletado"
+    }
   ],
   "monitoring_urls": {
-    "CLIENTS_CASES": ["https://tecnoit.com.br/nossos-cases"],
-    "OFFERS": ["https://tecnoit.com.br/solucoes"],
+    "CLIENTS_CASES": [
+      "https://tecnoit.com.br/nossos-cases"
+    ],
+    "OFFERS": [
+      "https://tecnoit.com.br/solucoes"
+    ],
     "NEWS_LAUNCHES": []
   },
   "collection_errors": [],

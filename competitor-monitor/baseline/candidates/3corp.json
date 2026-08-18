@@ -5,30 +5,121 @@
   "generated_at": "2026-08-18T00:00:00Z",
   "approved_at": null,
   "clients": [
-    {"name": "Grupo Casas Bahia", "source_url": "https://www.3corp.com.br/case/grupo-casas-bahia/2", "confidence": 0.95},
-    {"name": "Paschoalotto", "source_url": "https://www.3corp.com.br/case/paschoalotto/5", "confidence": 0.95},
-    {"name": "Banco do Nordeste (BNB)", "source_url": "https://www.3corp.com.br/case/banco-do-nordeste/6", "confidence": 0.95},
-    {"name": "DETRAN-SP", "source_url": "https://www.3corp.com.br/case/detran-ndash-sp/7", "confidence": 0.95},
-    {"name": "ARTESP", "source_url": "https://www.3corp.com.br/case/artesp/8", "confidence": 0.95},
-    {"name": "Prefeitura de Itapevi", "source_url": "https://www.3corp.com.br/case/prefeitura-de-itapevi/9", "confidence": 0.95},
-    {"name": "CREA-SP", "source_url": "https://www.3corp.com.br/case/crea-sp/10", "confidence": 0.95},
-    {"name": "Tribunal de Contas - RJ (TCE-RJ)", "source_url": "https://www.3corp.com.br/case/tribunal-de-contas-rj/20", "confidence": 0.95},
-    {"name": "Câmara Municipal de Porto Alegre", "source_url": "https://www.3corp.com.br/case/camara-de-porto-alegre/24", "confidence": 0.95},
-    {"name": "Correios", "source_url": "https://www.3corp.com.br/cases/", "confidence": 0.80},
-    {"name": "Via Varejo", "source_url": "https://www.3corp.com.br/cases/", "confidence": 0.80},
-    {"name": "CCR Via Sul", "source_url": "https://www.3corp.com.br/cases/", "confidence": 0.80},
-    {"name": "Entrevias", "source_url": "https://www.3corp.com.br/cases/", "confidence": 0.80},
-    {"name": "Rodovia Tamoios", "source_url": "https://www.3corp.com.br/cases/", "confidence": 0.80},
-    {"name": "NWI Telecom", "source_url": "https://www.3corp.com.br/cases/", "confidence": 0.80},
-    {"name": "Ministério Público RJ", "source_url": "https://www.3corp.com.br/cases/", "confidence": 0.80},
-    {"name": "PMDF", "source_url": "https://www.3corp.com.br/cases/", "confidence": 0.80},
-    {"name": "Sodexo", "source_url": "https://www.3corp.com.br/cases/", "confidence": 0.80},
-    {"name": "Vogel", "source_url": "https://www.3corp.com.br/cases/", "confidence": 0.80}
+    {
+      "name": "Grupo Casas Bahia",
+      "source_url": "https://www.3corp.com.br/case/grupo-casas-bahia/2",
+      "confidence": 0.95
+    },
+    {
+      "name": "Paschoalotto",
+      "source_url": "https://www.3corp.com.br/case/paschoalotto/5",
+      "confidence": 0.95
+    },
+    {
+      "name": "Banco do Nordeste (BNB)",
+      "source_url": "https://www.3corp.com.br/case/banco-do-nordeste/6",
+      "confidence": 0.95
+    },
+    {
+      "name": "DETRAN-SP",
+      "source_url": "https://www.3corp.com.br/case/detran-ndash-sp/7",
+      "confidence": 0.95
+    },
+    {
+      "name": "ARTESP",
+      "source_url": "https://www.3corp.com.br/case/artesp/8",
+      "confidence": 0.95
+    },
+    {
+      "name": "Prefeitura de Itapevi",
+      "source_url": "https://www.3corp.com.br/case/prefeitura-de-itapevi/9",
+      "confidence": 0.95
+    },
+    {
+      "name": "CREA-SP",
+      "source_url": "https://www.3corp.com.br/case/crea-sp/10",
+      "confidence": 0.95
+    },
+    {
+      "name": "Tribunal de Contas - RJ (TCE-RJ)",
+      "source_url": "https://www.3corp.com.br/case/tribunal-de-contas-rj/20",
+      "confidence": 0.95
+    },
+    {
+      "name": "Câmara Municipal de Porto Alegre",
+      "source_url": "https://www.3corp.com.br/case/camara-de-porto-alegre/24",
+      "confidence": 0.95
+    },
+    {
+      "name": "Correios",
+      "source_url": "https://www.3corp.com.br/cases/",
+      "confidence": 0.8
+    },
+    {
+      "name": "Via Varejo",
+      "source_url": "https://www.3corp.com.br/cases/",
+      "confidence": 0.8
+    },
+    {
+      "name": "CCR Via Sul",
+      "source_url": "https://www.3corp.com.br/cases/",
+      "confidence": 0.8
+    },
+    {
+      "name": "Entrevias",
+      "source_url": "https://www.3corp.com.br/cases/",
+      "confidence": 0.8
+    },
+    {
+      "name": "Rodovia Tamoios",
+      "source_url": "https://www.3corp.com.br/cases/",
+      "confidence": 0.8
+    },
+    {
+      "name": "NWI Telecom",
+      "source_url": "https://www.3corp.com.br/cases/",
+      "confidence": 0.8
+    },
+    {
+      "name": "Ministério Público RJ",
+      "source_url": "https://www.3corp.com.br/cases/",
+      "confidence": 0.8
+    },
+    {
+      "name": "PMDF",
+      "source_url": "https://www.3corp.com.br/cases/",
+      "confidence": 0.8
+    },
+    {
+      "name": "Sodexo",
+      "source_url": "https://www.3corp.com.br/cases/",
+      "confidence": 0.8
+    },
+    {
+      "name": "Vogel",
+      "source_url": "https://www.3corp.com.br/cases/",
+      "confidence": 0.8
+    }
   ],
   "cases": [
-    {"client": "Grupo Casas Bahia", "description": "Case publicado no site", "source_url": "https://www.3corp.com.br/case/grupo-casas-bahia/2", "confidence": 0.95},
-    {"client": "Banco do Nordeste", "description": "Case publicado no site", "source_url": "https://www.3corp.com.br/case/banco-do-nordeste/6", "confidence": 0.95},
-    {"client": "DETRAN-SP", "description": "Case publicado no site", "source_url": "https://www.3corp.com.br/case/detran-ndash-sp/7", "confidence": 0.95}
+    {
+      "client": "Grupo Casas Bahia",
+      "description": "Case publicado no site",
+      "source_url": "https://www.3corp.com.br/case/grupo-casas-bahia/2",
+      "confidence": 0.95
+    },
+    {
+      "client": "Banco do Nordeste",
+      "description": "Case publicado no site",
+      "source_url": "https://www.3corp.com.br/case/banco-do-nordeste/6",
+      "confidence": 0.95
+    },
+    {
+      "client": "DETRAN-SP",
+      "description": "Case publicado no site",
+      "source_url": "https://www.3corp.com.br/case/detran-ndash-sp/7",
+      "confidence": 0.95
+    }
   ],
   "offers": [
     {
@@ -49,21 +140,21 @@
       "name": "Redes de Fibra Óptica (Huawei) — aeroportos, portos, ferrovias, rodovias",
       "tripla_overlap": "TOTAL",
       "tripla_solution": "Redes de Transmissão Ótica DWDM/SDH/GPON (Huawei)",
-      "confidence": 0.90,
+      "confidence": 0.9,
       "evidence": "URL /solucoes/redes-de-fibra-optica-aeroportos-portos-ferrovias-rodovias — Huawei, mesma linha Tripla"
     },
     {
       "name": "Câmeras IP / CFTV (Huawei Smart Cities)",
       "tripla_overlap": "TOTAL",
       "tripla_solution": "Segurança Eletrônica (Dahua)",
-      "confidence": 0.80,
+      "confidence": 0.8,
       "evidence": "URL /solucoes/Cameras-IP-CFTV — Tripla vende Segurança Eletrônica Dahua; 3CORP usa Huawei para CCTV em smart cities. Mesma categoria, fabricante diferente — TOTAL por categoria."
     },
     {
       "name": "IdeaHub Huawei (videoconferência, projetor, lousa interativa)",
       "tripla_overlap": "TOTAL",
       "tripla_solution": "Tela Interativa (Huawei)",
-      "confidence": 0.90,
+      "confidence": 0.9,
       "evidence": "URL /solucoes/ideahub_huawei_videoconferencia_projetor_lousa_magica — mesmo produto Huawei IdeaHub que a Tripla comercializa"
     },
     {
@@ -93,38 +184,13 @@
       "tripla_solution": "Segurança Eletrônica (Dahua) + Redes Sem Fio (Huawei)",
       "confidence": 0.75,
       "evidence": "URL /solucoes/smart_cities — inclui CFTV, redes, monitoramento urbano. Tripla tem componentes individuais (câmeras Dahua, redes Huawei)"
-    },
-    {
-      "name": "Comunicação Unificada (UC) / PABX em Nuvem / Rainbow Alcatel-Lucent",
-      "tripla_overlap": "FORA_DE_PORTFOLIO",
-      "tripla_solution": null,
-      "confidence": 0.90,
-      "evidence": "UC, PABX, OmniChannel — não estão no portfólio Tripla"
-    },
-    {
-      "name": "Rede própria de Telecomunicações (operadora)",
-      "tripla_overlap": "FORA_DE_PORTFOLIO",
-      "tripla_solution": null,
-      "confidence": 0.90,
-      "evidence": "Operadora de telecom — fora do portfólio Tripla"
-    },
-    {
-      "name": "OmniChannel / Call Center (Huawei AICC)",
-      "tripla_overlap": "FORA_DE_PORTFOLIO",
-      "tripla_solution": null,
-      "confidence": 0.90,
-      "evidence": "Call center / omnichannel — fora do portfólio Tripla"
-    },
-    {
-      "name": "3CORP Cloud (cloud própria)",
-      "tripla_overlap": "FORA_DE_PORTFOLIO",
-      "tripla_solution": null,
-      "confidence": 0.85,
-      "evidence": "Cloud própria da 3CORP — diferente das soluções de cloud que a Tripla revende"
     }
   ],
   "monitoring_urls": {
-    "CLIENTS_CASES": ["https://www.3corp.com.br/cases/", "https://www.3corp.com.br/clientes"],
+    "CLIENTS_CASES": [
+      "https://www.3corp.com.br/cases/",
+      "https://www.3corp.com.br/clientes"
+    ],
     "OFFERS": [
       "https://www.3corp.com.br/solucoes/WLAN-conectividade-sem-fio",
       "https://www.3corp.com.br/solucoes/Redes-LAN-Switches",
@@ -133,7 +199,10 @@
       "https://www.3corp.com.br/solucoes/ideahub_huawei_videoconferencia_projetor_lousa_magica",
       "https://www.3corp.com.br/solucoes/Seguranca-de-Rede-Firewall"
     ],
-    "NEWS_LAUNCHES": ["https://www.3corp.com.br/blog", "https://www.3corp.com.br/imprensa"]
+    "NEWS_LAUNCHES": [
+      "https://www.3corp.com.br/blog",
+      "https://www.3corp.com.br/imprensa"
+    ]
   },
   "collection_errors": [],
   "pages_analyzed": 1,

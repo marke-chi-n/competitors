@@ -6,17 +6,23 @@
   "approved_at": null,
   "clients": [],
   "cases": [],
-  "offers": [
-    {"name": "Consultoria de Cybersecurity (Digital Trust)", "tripla_overlap": "FORA_DE_PORTFOLIO", "tripla_solution": null, "confidence": 0.80, "evidence": "PwC BIG4 — foco em advisory e auditoria de cibersegurança, não em managed services ou produtos"},
-    {"name": "Consultoria de Negócios / Digital", "tripla_overlap": "FORA_DE_PORTFOLIO", "tripla_solution": null, "confidence": 0.90, "evidence": "Auditoria, consultoria tributária, consultoria de negócios — core BIG4"}
-  ],
+  "offers": [],
   "monitoring_urls": {
-    "CLIENTS_CASES": ["https://www.pwc.com.br/pt/consultoria/cases-sucesso.html"],
-    "OFFERS": ["https://www.pwc.com.br/pt/consultoria.html", "https://www.pwc.com.br/pt/digital.html"],
+    "CLIENTS_CASES": [
+      "https://www.pwc.com.br/pt/consultoria/cases-sucesso.html"
+    ],
+    "OFFERS": [
+      "https://www.pwc.com.br/pt/consultoria.html",
+      "https://www.pwc.com.br/pt/digital.html"
+    ],
     "NEWS_LAUNCHES": []
   },
   "collection_errors": [
-    {"url": "https://www.pwc.com.br/pt/consultoria/digital-trust/cyber-security.html", "error": "404 Not Found — URL de cybersecurity da PwC BR não encontrada", "stage": "scrape"}
+    {
+      "url": "https://www.pwc.com.br/pt/consultoria/digital-trust/cyber-security.html",
+      "error": "404 Not Found — URL de cybersecurity da PwC BR não encontrada",
+      "stage": "scrape"
+    }
   ],
   "pages_analyzed": 0,
   "notes": "PwC é BIG4 — consultoria advisory, não produto de tecnologia. Sobreposição com Tripla é irrelevante na prática. Monitorar cases de sucesso para identificar clientes comuns."
