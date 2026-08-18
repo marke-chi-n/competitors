@@ -11,7 +11,7 @@
     {"client": "Copel", "description": "Migração Microsoft 365 para empresa de energia paranaense", "source_url": "https://www.solo-network.com.br", "confidence": 0.85}
   ],
   "offers": [
-    {"name": "Microsoft 365 / Microsoft Partner", "tripla_overlap": "FORA_DE_PORTFOLIO", "tripla_solution": null, "confidence": 0.90, "evidence": "Microsoft Partner of the Year 2020 — foco em licenciamento e cloud Microsoft"},
+    {"name": "Microsoft 365 / Licenciamento Microsoft / Cloud Microsoft", "tripla_overlap": "PARCIAL", "tripla_solution": "Cloud Microsoft / Licenciamento Microsoft", "confidence": 0.90, "evidence": "Microsoft Partner of the Year 2020 — foco em licenciamento M365 e migração cloud (caso Copel). Tripla também revende licenciamento Microsoft e Cloud Microsoft no pilar DISPONIBILIDADE. Solo Network tem maior profundidade Microsoft; Tripla atende o mesmo portfólio mas com foco diferente."},
     {"name": "Segurança Microsoft (inferido)", "tripla_overlap": "INDETERMINADO", "tripla_solution": null, "confidence": 0.50, "evidence": "Parceiro Microsoft — possível revenda de Defender/Sentinel, mas sem evidência explícita"}
   ],
   "monitoring_urls": {

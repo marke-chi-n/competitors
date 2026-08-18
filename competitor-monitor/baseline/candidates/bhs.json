@@ -26,7 +26,7 @@
   "offers": [
     {"name": "SOC 24x7", "tripla_overlap": "TOTAL", "tripla_solution": "SOC/MDR CyberWatch", "confidence": 0.90, "evidence": "Página dedicada SOC 24x7 em /services/soc-24x7/"},
     {"name": "Segurança Gerenciada (Microsoft)", "tripla_overlap": "PARCIAL", "tripla_solution": "SOC/MDR CyberWatch", "confidence": 0.85, "evidence": "Segurança gerenciada do ambiente Microsoft — foco em M365/Azure, não SIEM neutro"},
-    {"name": "Microsoft 365 / Azure Cloud", "tripla_overlap": "FORA_DE_PORTFOLIO", "tripla_solution": null, "confidence": 0.90, "evidence": "BHS é fortemente focada no ecossistema Microsoft — não cibersegurança pura"}
+    {"name": "Microsoft 365 / Azure Cloud / Copilot Studio", "tripla_overlap": "PARCIAL", "tripla_solution": "Cloud Microsoft / Licenciamento Microsoft / Copilot Microsoft", "confidence": 0.90, "evidence": "BHS implementa Azure (migração SAP, Azure Virtual Desktop), M365, e Microsoft Copilot Studio — mesmos produtos que Tripla vende no pilar DISPONIBILIDADE. BHS tem escala e especialização maior em Azure (cases Tegra, Cemig, Patrus); Tripla cobre o mesmo portfólio Microsoft como integrador."}
   ],
   "monitoring_urls": {
     "CLIENTS_CASES": ["https://bhs.com.br/cases-e-resultados/"],
