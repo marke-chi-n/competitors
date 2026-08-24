@@ -1,6 +1,0 @@
-Shield Security — SOC/MDR
-
-Monitoramento contínuo com resposta a incidentes.
-Nossa equipe garante detecção e resposta 24x7.
-
-Serviços: SOC, MDR, Vulnerability Management, Pentest

@@ -1,7 +1,0 @@
-Shield Security — Cases de Sucesso
-
-Banco XYZ confia na Shield Security para proteção de endpoints e SOC.
-"Reduzimos o tempo de resposta a incidentes em 80%." — CISO, Banco XYZ
-
-Petrobras implementou nossa solução de Vulnerability Management.
-Case: Gestão de vulnerabilidades em ambiente crítico industrial.
